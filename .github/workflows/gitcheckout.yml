@@ -2,10 +2,10 @@ on:
   push:
     branches:
       - main
-#permissions:
-  #pull-requests: read
-  #contents: read
-  #repository-projects: read
+permissions:
+  pull-requests: read
+  contents: read
+  repository-projects: read
 jobs:
   display_files:
     name: job for displaying file content
