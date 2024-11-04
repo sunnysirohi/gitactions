@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Job 1
-        run: echo "Job 1 successfully executed"
+        run: sleep 30
 
   job2:
     runs-on: ubuntu-latest
