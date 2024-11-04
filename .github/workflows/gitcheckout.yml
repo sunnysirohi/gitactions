@@ -11,8 +11,8 @@ jobs:
     name: job for displaying file content
     runs-on: ubuntu-latest
     steps:
-      - name: checkout repository
-        uses: actions/checkout@v2
+      #- name: checkout repository
+      #  uses: actions/checkout@v2
         
       - name: display file content
         run: |
