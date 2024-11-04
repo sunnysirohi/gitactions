@@ -3,16 +3,16 @@ on:
     branches:
       - main
 permissions:
-  pull-requests: write
-  contents: write
-  repository-projects: write
+  pull-requests: read
+  contents: read
+  repository-projects: read
 jobs:
   display_files:
     name: job for displaying file content
     runs-on: ubuntu-latest
     steps:
-      #- name: checkout repository
-      #  uses: actions/checkout@v2
+      - name: checkout repository
+        uses: actions/checkout@v2
         
       - name: display file content
         run: |
